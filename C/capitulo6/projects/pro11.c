@@ -3,16 +3,19 @@
 
 int main (void)
 {
-    int number, e;
+    int number;
+    double e = 1.0f;
+    double factorial = 1.0f;
     printf("Enter a number: ");
     scanf("%d", &number);
 
     printf("The aproximate e is: ");
-    int i = 1;
-    while(i<number){
-        e +=1/i
+    for(int i = 1; i <= number; i++){
+        factorial*=i;
+        e+= 1/factorial;
     }
-    printf("\n");
+    
+    printf("%.5f\n", e);
 
 
     return 0;
