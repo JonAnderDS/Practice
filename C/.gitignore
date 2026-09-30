@@ -1,0 +1,15 @@
+# Ejecutables en Windows
+*.exe
+
+# Ejecutables en Linux / macOS
+*.out
+a.out
+
+# Archivos objeto generados por el compilador
+*.o
+*.obj
+
+# Archivos de depuracion y temporales
+*.dSYM/
+*.pdb
+*.ilk
