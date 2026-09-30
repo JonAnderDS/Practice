@@ -1,6 +1,5 @@
 
 #include <stdio.h>
-#include <ctype.h>
 
 int main(void)
 {
@@ -23,7 +22,7 @@ int main(void)
         putchar(ch);
     }
 
-    printf(", %c. \n", firstInitial);
+    printf(", %c.\n", firstInitial);
 
     return 0;
 }
