@@ -1,15 +1,13 @@
-# Ejecutables en Windows
-*.exe
+# Ignorar todos los archivos por defecto
+*
 
-# Ejecutables en Linux / macOS
-*.out
-a.out
+# Permitir que Git entre en las carpetas y subcarpetas
+!*/
 
-# Archivos objeto generados por el compilador
-*.o
-*.obj
-
-# Archivos de depuracion y temporales
-*.dSYM/
-*.pdb
-*.ilk
+# Lista blanca
+!*.c
+!*.h
+!*.md
+!*.txt
+!Makefile
+!.gitignore
